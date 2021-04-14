@@ -1,0 +1,221 @@
+* {
+    color: white;
+}
+
+/*NAVIGATION BAR*/
+#container-nav{
+    padding: 2%;
+}
+
+.logo-nav {
+    width: 10%;
+}
+
+a {
+    color: grey;
+}
+
+/*HOMEPAGE*/
+.homepage {
+    background-image: url("../assets/images/taxi.jpg");
+    background-size: 100%;
+    color: white;    
+}
+
+.homepage-container {
+    left: 50%;
+    background-color:grey;
+    margin: 15% 0% 15% 0%;
+    padding: 2%;
+    
+}
+
+.title-homepage,
+.title-homepage2 {
+    line-height: 50%;
+}
+
+.title-homepage2 {
+    margin-bottom: 5%;
+}
+
+.logoBlanco,
+.subtitle-homepage {
+    display: inline-block;
+}
+
+.logoBlanco {
+    margin-bottom: 3%;
+    width: 25%;
+    margin-left: 2%;
+}
+
+.title-register {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 2%;
+    text-align: center;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 10% 0% 4% 0%;  
+}
+
+.text-input {
+    margin: 40% 0% 4% 0%;
+}
+
+#btn-register {
+    margin-top: 20%;
+}
+
+#btn-conductor {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*CELLPHONE*/
+#container-cellphone {
+    background-color: #f7b617;
+}
+
+#div-cellphone {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 5%;
+    margin: 5% 0% 5% 0%;
+}
+
+.img-cellphone {
+    width: 80%;
+}
+
+.title-cellphone {
+    font-size: 190%;
+}
+
+.text-cellphone {
+    font-size: 140%;
+}
+
+/*DRIVER*/
+.driver {
+    background-image: url("../assets/images/conduce.jpg");
+    background-size: 100%;
+}
+
+.div-driver {
+    left: 49.5%;
+    padding: 10% 5% 20% 5%;
+    margin: 0% 30% 0% 10%;
+    background-color:black;
+    opacity: 0.6;
+    filter: Alpha(opacity=20);
+}
+
+.title-driver {
+    font-size: 250%;
+}
+
+.subtitle-driver {
+   font-size: 150%;
+}
+
+#btn-driver {
+    background-color: #f7b617;
+    color: white;
+    opacity: 1;
+    filter: Alpha(opacity=50);
+    font-size: 140%;
+}
+
+/*RATES*/
+#container-rates{
+    background-color: #f7b617;
+}
+
+.iframe-map {
+    width: 75%;
+    border: 1px solid white;
+    padding: 3%;
+    margin: 7% 0% 7% 0%;
+}
+
+.consult {
+    padding: 5.5%;
+}
+
+.title-rates {
+    font-size: 200%;
+}
+
+.subtitle-rates {
+    font-size: 150%;
+}
+
+.input-group-addon {
+    background: none;
+    border: none;
+}
+
+.form-control {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 4%;
+    color: white;
+}
+
+#btn-rates {
+    margin: 5% 0% 0% 20%;
+    font-weight: 600;
+}
+
+/*FOOTER*/
+#container-footer {
+    background-color: #2b2b2b;
+}
+
+.title-footer {
+    padding: 7% 0% 2% 10%;
+    
+}
+
+.div-footer {
+    padding-bottom: 2%;
+    border-bottom: 1px solid white;
+    width: 85%;
+}
+
+.icons {
+    margin: 23% 0% 1% 7%;
+}
+
+#icon {
+    margin-left: 2%;
+}
+
+.text-options {
+    margin-top: 4%;
+}
+
+.apps{
+    margin: 12% 0% 0% 12%;
+}
+
+.img-apps{
+    width: 50%;
+    margin-top: 7%;
+}
+
+.final-footer {
+    border-top: 1px solid white;
+    margin-left: 8%;
+    width: 80%;
+    padding: 2% 0% 5% 0%;
+}

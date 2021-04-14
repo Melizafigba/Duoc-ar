@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Duo Car</title>
+    <link rel="icon" href="assets/images/DC.png" type="...">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css">
+  </head>
+  <body>
+      <!-- navigation bar -->     
+      <div class="container" id="container-nav"> 
+        <a href="#"><img class="logo-nav" src="assets/images/logoForma1.png"></a> 
+        <ul class="nav navbar-nav navbar-right" id="text-nav">
+          <li><a href="#">Viaja</a></li>
+          <li><a href="#">Conduce</a></li>
+          <li><a href="#">Inicia sesión</a></li>            
+        </ul>
+      </div>
+      <!-- home page -->
+      <div class="homepage">
+        <div class="container-fluid">  
+          <div class="row">
+            <div class="col-md-6 homepage-container">
+              <h2 class="title-homepage">Disfruta del viaje</h2>
+              <h2 class="title-homepage2">Eres dueño de tu tiempo</h2>
+              <div class="row">
+                <div class="col-md-8">
+                  <h3 class="subtitle-homepage">viaja con</h3>
+                  <img class="logoBlanco" src="assets/images/logoBlanco1.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-default" id="btn-register">REGÍSTRATE</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <input type="text">
+                </div>
+                <div class="col-md-2">
+                  <p class="text-input">o bien</p>
+                </div>
+                <div class="col-md-5">
+                  <input type="text">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                    <button type="button" class="btn btn-default" id="btn-conductor">Conviértete en un conductor</button>
+                </div>
+              </div>
+            </div>
+          </div>               
+        </div>
+      </div>
+      <!-- Section cellphone-->
+      <div class="container-fluid" id="container-cellphone">
+        <div class="row">
+          <div class="col-md-10" id="div-cellphone">
+            <div class="col-md-6">
+              <img class="img-cellphone" src="assets/images/iPhone6Plus1.png">
+            </div>
+            <div class="col-md-5">
+              <h3 class="title-cellphone">Descarga la nueva app</h3>
+              <br>
+              <p class="text-cellphone">La versión actualizada de DuoCar está llena de nuevas funciones para llegar a donde
+                 quieras aún más fácil y rápido.</p>
+                 <br>
+              <p class="text-cellphone">Con solo tocar un botón, un auto llegas justo a tu ubicación. Súbete y no te preocupes:
+                 tu conductor sabe exactamente a dónde ir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section driver -->
+      <div class="container-fluid" id="container-driver">
+        <div class="row">
+          <div class="col-md-12 driver">
+            <div class="col-md-5 div-driver">
+              <h3 class="title-driver">Conduce cuando quieras</h3>
+              <p class="subtitle-driver">DuoCar es una opción flexible para alcanzar tus
+                 metas financieras.</p>
+              <button type="button" class="btn btn-default" id="btn-driver">Conviértete en
+                 un conductor</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <!-- section rates -->
+      <div class="container-fluid" id="container-rates">
+        <div class="row">
+          <div class="col-md-12 rates">
+            <div class="col-md-6 consult">
+              <div class="row">
+                <div class="col-md-12">
+                    <h3 class="title-rates">Tarifas</h3>
+                    <p class="subtitle-rates">Consulta las tarifas DuoCar aquí</p>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-8">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <img class="img-shape" src="assets/images/shape.png">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." placeholder="Ingrese su punto de partida">
+                    </div>
+                  </div>       
+              </div>
+              <div class="row">
+                  <div class="col-md-8">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <img class="img-shape" src="assets/images/shape2.png">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." placeholder="Ingrese su destino">
+                    </div>
+                  </div>      
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-default" id="btn-rates">¡TRAZAR RUTA!</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 map">
+                <iframe
+                  class="iframe-map"
+                  width="500"
+                  height="400"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyClN7OdCQGQK6IQJnRKy8vm38S8MKTfWaU
+                  &q=Space+Needle,Seattle+WA" allowfullscreen>
+                </iframe>
+            </div>          
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="container-fluid" id="container-footer">
+        <div class="row"> <!-- title -->
+          <div class="col-md-12 title-footer">
+            <div class="div-footer">
+            <img src="assets/images/logoBlanco1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row"> <!-- list icons, options and images apps -->
+          <div class="col-md-12">
+              <div class="col-md-3 icons"> <!-- icons -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <a href="#">
+                      <i class="fa fa-facebook" id="icon" aria-hidden="true"></i>
+                      <i class="fa fa-twitter" id="icon" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin" id="icon" aria-hidden="true"></i>
+                      <i class="fa fa-apple" id="icon" aria-hidden="true"></i>
+                      <i class="fa fa-play" id="icon" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3"> <!-- options -->
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#"><p>Viaja</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>Oportunidades</p></a>
+                  </div>
+                </div>
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#">  <p>Conduce</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>Nuestra historia</p></a>
+                  </div>
+                </div>
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#"><p>Ciudades</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>API de DuoCar</p></a>
+                  </div>
+                </div>
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#"><p>Ciudades</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>Eventos</p></a>
+                  </div>
+                </div>
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#"><p>Entregas</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>Desarrolladores</p></a>
+                  </div>
+                </div>
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#"><p>Países</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>Duoc UC</p></a>
+                  </div>
+                </div>
+                <div class="row text-options">
+                  <div class="col-md-6">
+                    <a href="#"><p>Seguridad</p></a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#"><p>Coders</p></a>
+                  </div>
+                </div>                                
+              </div>              
+              <div class="col-md-3 apps"> <!-- apps -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <a href="#"><img class="img-apps" src="assets/images/appstore.png"></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <a href="#"><img class="img-apps" src="assets/images/enBadgeWebGeneric.png"></a>
+                  </div>
+                </div>
+              </div>
+          </div>          
+        </div>
+        <div class="row"> <!-- final footer -->
+          <div class="col-md-12">
+            <div class="final-footer">
+              <p>2021 Maite Figueroa - DuoCar technologies Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- link jquery, bootstrap and js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
